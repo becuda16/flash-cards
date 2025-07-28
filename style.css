@@ -38,7 +38,7 @@ body {
     backface-visibility: hidden;
 }
 
-.cartao:hover .cartao__conteudo{
+.cartao:active .cartao__conteudo{
     transform: rotateY(180deg)
 }
 
@@ -97,4 +97,10 @@ footer p{
     font-size: 0.6rem;
     margin-top: 0.5rem;
 
+}
+
+
+@Mmedia(max-width: 560px)
+body{
+    ba
 }
