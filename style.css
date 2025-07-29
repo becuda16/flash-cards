@@ -54,17 +54,6 @@ body {
     padding: 2rem;
     margin-top: 4rem;
 }
-.cartao__conteudo h3{
-    color: var(--text-color);
-    border: 1px olid var(--text-color);
-    text-align: left;
-    padding: 0.5rem;
-    position: absolute;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
-    font-size: 1vw;
-    backface-visibility: hidden;
-}
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
@@ -105,7 +94,7 @@ body{
     background: url(img/bg-mobile.webp);
 }
 .cartao{
-    flex: 1 0 calc(100% - 1rem)
+    flex: 1 0 calc(100% - 1rem);
 }
 .cartao__conteudo h3{
     font-size: 3vw;
